@@ -1,0 +1,51 @@
+main{
+    width: 100%;
+    .background1{
+        width: 100%;
+        height: 605px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 1200px;
+            height: 605px;
+        }
+    }
+    .background2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 754px;
+        background-image: url(./Main_assets/back.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        >div{
+            width: 1120px;
+            height: 496px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h2{
+                font-size: 60px;
+                font-weight: normal;
+            }
+            >div{
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                width: 483px;
+                height: 305px;
+                
+            }
+        }
+    }
+    .background3{
+        width: 100%;
+        height: 120px;
+        background-color: #BFE5DB25;
+        display: flex;
+        align-items: center;
+    }
+}
