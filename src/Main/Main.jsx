@@ -2,7 +2,7 @@ import './Main.scss'
 import imgs from './Main_assets/IMAGE.png'
 import fotka from './Main_assets/fotka.png'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, Pagination, Scrollbar, A11y, Mousewheel, Autoplay } from 'swiper/modules'
+import { Navigation,  A11y, Mousewheel, Autoplay } from 'swiper/modules'
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';

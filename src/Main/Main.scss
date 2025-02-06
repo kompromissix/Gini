@@ -8,8 +8,9 @@ main{
         align-items: center;
         img{
             width: 1200px;
-            height: 605px;
+
         }
+        
     }
     .background2{
         display: flex;
@@ -47,5 +48,45 @@ main{
         background-color: #BFE5DB25;
         display: flex;
         align-items: center;
+    }
+    @media screen and (max-width:375px){
+        .background1{
+            display: flex;
+            align-items: end;
+            height: 250px;
+            img{
+                width: 90vw;
+            }
+        }
+        .background2{
+            width: 100vw;
+            >div{
+                flex-direction: column;
+                width: 100vw;
+                h2{
+                    font-size: 25px;
+                    width: 70vw;
+                    text-align: center;
+                }
+                p{
+                    font-size: 16px;
+                }
+                img{
+                    width: 70vw;
+                }
+                >div{
+                    width: 80vw;
+                    display: flex;
+                    align-items: center;
+                    height: 150px;
+                }
+            }
+        }
+        .background3{
+            width: 100vw;
+            img{
+                width: 50px;
+            }
+        }
     }
 }
