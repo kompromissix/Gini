@@ -19,6 +19,15 @@ import { tabs } from './data';
 import { ways } from './datajs';
 import { albom } from './human';
 import { wayss } from './Analysis';
+import xxx from './Main_assets/sxx.png'
+import icon1 from './Main_assets/icon1.png'
+import icon2 from './Main_assets/icon2.png'
+import icon3 from './Main_assets/icon3.png'
+import icon4 from './Main_assets/icon4.png'
+import icon5 from './Main_assets/icon5.png'
+import human1 from './Main_assets/human1.png'
+import human2 from './Main_assets/human2.png'
+import human3 from './Main_assets/human3.png'
 
 export default function Main() {
     const [activeIndex, setActiveIndex] = useState(0);
@@ -135,7 +144,80 @@ export default function Main() {
                     </div>
                 </section>
                 <section className='background7'>
-                    
+                    <div>
+                        <h2>Automated flows and templates for Google Sheets</h2>
+                        <div className='yello_green'>
+                            <p>I want to...</p>
+                        </div>
+                        <div className='slid'>
+                            <div>
+                                <div>
+                                    <img src={icon1} alt="" />
+                                    <p>Automate your profit & loss reporting</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img src={icon2} alt="" />
+                                    <p>Automate your profit & loss reporting</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img src={icon3} alt="" />
+                                    <p>Automate your profit & loss reporting</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img src={icon4} alt="" />
+                                    <p>Automate your profit & loss reporting</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img src={icon5} alt="" />
+                                    <p>Automate your profit & loss reporting</p>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>See more models and reports</h3>
+                        <img src={xxx} alt="" />
+                    </div>
+                </section>
+                <section className='background8'>
+                    <div>
+                       <h2>Recent articles and resources</h2>
+                       <div>
+                            <div>
+                                <div>
+                                    <img src={human1} alt="" />
+                                    <h4>EPM vs. ERP: Optimize your account and finance operations</h4>
+                                    <div>
+                                        <p>Read more</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img src={human2} alt="" />
+                                    <h4>Understanding actual budget and variance</h4>
+                                    <div>
+                                        <p>Read more</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img src={human3} alt="" />
+                                    <h4>Top 19 small business tools that you need in 2023</h4>
+                                    <div>
+                                        <p>Read more</p>
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
                 </section>
             </main>
         </>
