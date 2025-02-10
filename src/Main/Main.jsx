@@ -89,7 +89,6 @@ export default function Main() {
                                                     <p>{tab.p}</p>
                                                     <h4>Try for free</h4>
                                                 </div>
-                                                
                                             </div>
                                             <img src={tab.img} alt={tab.h3} />
                                         </div>

@@ -73,4 +73,14 @@ footer{
             height: 850px;
         }
     }
+    @media screen and (min-width:426px) and (max-width:768px){
+        >div{
+            width: 90%;
+        }
+    }
+    @media screen and (min-width:769px) and (max-width:1024px){
+        >div{
+            width: 90%;
+        }
+    }
 }

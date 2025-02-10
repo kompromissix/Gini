@@ -71,7 +71,7 @@ header{
             font-size: 14px;
         }
     }
-    @media screen and (max-width:425px  ){
+    @media screen and (max-width:425px){
         >nav{
             flex-direction: column;
             height: 300px;
@@ -115,7 +115,44 @@ header{
         height: 500px;
         >nav{
 
-            padding-top: 50px;
+            padding-top: 25px;
+            >div{
+                height: 280px;
+                width: 90%;
+                >div{
+                    width: 500px;
+                    >div{
+                        height: 30px;
+                    }
+                }
+            }
+        }
+        >div{
+            height: 250px;
+            width: 100vw;
+            h1{
+                font-size: 30px;
+                width: 50vw;
+            }
+            h2{
+                font-size: 16px;
+                width: 50vw;
+            }
+            >div{
+                width: 150px;
+                height: 30px;
+                font-size: 16px;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+    @media screen and (min-width:769px) and (max-width:1024px){
+        height: 500px;
+        >nav{
+
+            padding-top: 25px;
             >div{
                 height: 280px;
                 width: 90%;
